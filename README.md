@@ -1,317 +1,71 @@
+# 🐉 龙导的海报图鉴
+
+收录收集的海报，快速跳转到各个子页面查看详情。
+
 ---
-title: 龙导的海报图鉴
+
+### 📊 系列概览
+
+| 状态 | 数量 |
+|------|------:|
+| ✅ 已完成系列 | **1** |
+| 🏗️ 建设中系列 | **3** |
+| 💤 待启动系列 | **4** |
+
 ---
 
-<style>
-:root {
-  color-scheme: light dark;
-  --bg: #f6f8fb;
-  --primary: #4b6ef5;
-  --secondary: #8aa4ff;
-  --accent: #f5a623;
-  --text: #222;
-  --muted: #667;
-  --card-bg: #fff;
-  font-family: "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
-}
-body {
-  margin: 0;
-  background: linear-gradient(160deg, #eef2ff 0%, #fef9f3 100%);
-  color: var(--text);
-}
-header {
-  padding: 60px 20px 40px;
-  text-align: center;
-  background: radial-gradient(circle at top, rgba(75, 110, 245, 0.15), transparent 70%);
-}
-header h1 {
-  font-size: 2.6rem;
-  margin: 0;
-  letter-spacing: 0.12rem;
-}
-header p {
-  max-width: 640px;
-  margin: 16px auto 0;
-  color: var(--muted);
-  line-height: 1.6;
-}
-.stats {
-  display: flex;
-  gap: 18px;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 32px;
-}
-.stats-item {
-  padding: 18px 26px;
-  background: rgba(255, 255, 255, 0.85);
-  border-radius: 16px;
-  box-shadow: 0 15px 30px rgba(75, 110, 245, 0.08);
-  min-width: 180px;
-}
-.stats-item span {
-  display: block;
-}
-.stats-item .label {
-  font-size: 0.95rem;
-  color: var(--muted);
-}
-.stats-item .value {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: var(--primary);
-  margin-top: 6px;
-}
-main {
-  max-width: 1040px;
-  margin: 0 auto;
-  padding: 40px 24px 60px;
-}
-.section {
-  margin-bottom: 54px;
-}
-.section-header {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  margin-bottom: 22px;
-}
-.section-header h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-.status-tag {
-  padding: 6px 12px;
-  border-radius: 999px;
-  font-size: 0.85rem;
-  color: #fff;
-}
-.status-tag.done { background: var(--primary); }
-.status-tag.building { background: var(--accent); }
-.status-tag.pending { background: #9aa4b5; }
+## ✅ 已完成系列 · *状态：已上线*
 
-.progress-box {
-  background: rgba(255,255,255,0.9);
-  border-radius: 16px;
-  padding: 16px 20px;
-  margin-bottom: 20px;
-  box-shadow: 0 10px 24px rgba(26, 36, 94, 0.08);
-}
-.progress-box .title {
-  font-weight: 600;
-  margin-bottom: 6px;
-}
-.progress-track {
-  position: relative;
-  height: 10px;
-  border-radius: 999px;
-  background: rgba(75, 110, 245, 0.16);
-  overflow: hidden;
-}
-.progress-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  border-radius: 999px;
-  transition: width 0.6s ease;
-}
-.card-grid {
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-}
-.card {
-  background: var(--card-bg);
-  padding: 20px;
-  border-radius: 18px;
-  box-shadow: 0 18px 34px rgba(15, 23, 42, 0.08);
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-.card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 22px 40px rgba(15, 23, 42, 0.16);
-}
-.card .category {
-  font-size: 1.05rem;
-  font-weight: 600;
-  color: var(--primary);
-}
-.card .desc {
-  color: var(--muted);
-  line-height: 1.5;
-  flex: 1;
-}
-.card .meta {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 0.9rem;
-  color: var(--muted);
-}
-.card a {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  margin-top: 8px;
-  font-weight: 600;
-  color: #fff;
-  background: var(--primary);
-  padding: 10px 14px;
-  border-radius: 12px;
-  text-decoration: none;
-  transition: background 0.25s ease;
-}
-.card a:hover {
-  background: var(--secondary);
-}
-footer {
-  text-align: center;
-  padding: 24px 18px 40px;
-  color: var(--muted);
-  font-size: 0.9rem;
-}
-@media (max-width: 640px) {
-  header h1 { font-size: 2.1rem; }
-  .section-header { flex-direction: column; align-items: flex-start; }
-}
-</style>
+**完成度：100%**
 
-<header>
-  <h1>龙导的海报图鉴</h1>
-  <p>收录收集的海报，快速跳转到各个子页面查看详情。</p>
+**系列列表：**
+- 🎬 **CGV-Cineart**  
+  更新：2025-11-08 · 共 18 张  
+  🔗 [进入子页面 →](https://example.com/posters/city)
 
-  <div class="stats">
-    <div class="stats-item">
-      <span class="label">已完成系列</span>
-      <span class="value">1</span>
-    </div>
-    <div class="stats-item">
-      <span class="label">建设中系列</span>
-      <span class="value">3</span>
-    </div>
-    <div class="stats-item">
-      <span class="label">待启动系列</span>
-      <span class="value">4</span>
-    </div>
-  </div>
-</header>
+---
 
-<main>
+## 🏗️ 建设中系列 · *状态：入库中*
 
-<section class="section">
-  <div class="section-header">
-    <h2>已完成</h2>
-    <span class="status-tag done">状态：已上线</span>
-  </div>
-  <div class="progress-box">
-    <div class="title">完成度</div>
-    <div class="progress-track">
-      <div class="progress-bar" style="width: 100%; background: linear-gradient(90deg, #4b6ef5, #8aa4ff);"></div>
-    </div>
-  </div>
-  <div class="card-grid">
-    <article class="card">
-      <div class="category">CGV-Cineart</div>
-      <div class="meta">
-        <span>更新：2025-11-08</span>
-        <span>18 张</span>
-      </div>
-      <a href="https://example.com/posters/city" target="_blank" rel="noopener">进入子页面 →</a>
-    </article>
-  </div>
-</section>
+**完成度：1%**
 
-<section class="section">
-  <div class="section-header">
-    <h2>建设中</h2>
-    <span class="status-tag building">状态：入库中</span>
-  </div>
-  <div class="progress-box">
-    <div class="title">完成度</div>
-    <div class="progress-track">
-      <div class="progress-bar" style="width: 1%; background: linear-gradient(90deg, #f5a623, #f8c471);"></div>
-    </div>
-  </div>
-  <div class="card-grid">
-    <article class="card">
-      <div class="category">CGV-IMAX</div>
-      <div class="meta">
-        <span>预计上线：2025-12</span>
-        <span>进度 1%</span>
-      </div>
-      <a href="https://example.com/posters/season" target="_blank" rel="noopener">预览页面 →</a>
-    </article>
-    <article class="card">
-      <div class="category">CGV-艺术</div>
-      <div class="meta">
-        <span>预计上线：2025-12</span>
-        <span>进度 1%</span>
-      </div>
-      <a href="https://example.com/posters/ip-collab" target="_blank" rel="noopener">预览页面 →</a>
-    </article>
-    <article class="card">
-      <div class="category">万达收藏家</div>
-      <div class="meta">
-        <span>预计上线：2025-12</span>
-        <span>进度 1%</span>
-      </div>
-      <a href="https://example.com/posters/ip-collab" target="_blank" rel="noopener">预览页面 →</a>
-    </article>
-  </div>
-</section>
+**系列列表：**
+- 🎥 **CGV-IMAX**  
+  预计上线：2025-12 · 进度：1%  
+  🔗 [预览页面 →](https://example.com/posters/season)
 
-<section class="section">
-  <div class="section-header">
-    <h2>未开始</h2>
-    <span class="status-tag pending">状态：待入库</span>
-  </div>
-  <div class="progress-box">
-    <div class="title">完成度</div>
-    <div class="progress-track">
-      <div class="progress-bar" style="width: 0%; background: linear-gradient(90deg, #9aa4b5, #c4cad6);"></div>
-    </div>
-  </div>
-  <div class="card-grid">
-    <article class="card">
-      <div class="category">IMAX</div>
-      <div class="meta">
-        <span>预计规划：2026</span>
-        <span>准备中</span>
-      </div>
-      <a href="https://example.com/posters/cultural" target="_blank" rel="noopener">敬请期待 →</a>
-    </article>
-    <article class="card">
-      <div class="category">片方</div>
-      <div class="meta">
-        <span>预计规划：2026</span>
-        <span>准备中</span>
-      </div>
-      <a href="https://example.com/posters/education" target="_blank" rel="noopener">敬请期待 →</a>
-    </article>
-    <article class="card">
-      <div class="category">Citity</div>
-      <div class="meta">
-        <span>预计规划：2026</span>
-        <span>准备中</span>
-      </div>
-      <a href="https://example.com/posters/crossover" target="_blank" rel="noopener">敬请期待 →</a>
-    </article>
-    <article class="card">
-      <div class="category">Dolby</div>
-      <div class="meta">
-        <span>预计规划：2026</span>
-        <span>准备中</span>
-      </div>
-      <a href="https://example.com/posters/crossover" target="_blank" rel="noopener">敬请期待 →</a>
-    </article>
-  </div>
-</section>
-</main>
+- 🎨 **CGV-艺术**  
+  预计上线：2025-12 · 进度：1%  
+  🔗 [预览页面 →](https://example.com/posters/ip-collab)
 
-<footer>
-  © 2025 龙导Orz · Poster Atlas · 保持灵感流动，持续更新
-</footer>
+- 🕶️ **万达收藏家**  
+  预计上线：2025-12 · 进度：1%  
+  🔗 [预览页面 →](https://example.com/posters/ip-collab)
+
+---
+
+## 💤 未开始系列 · *状态：待入库*
+
+**完成度：0%**
+
+**系列列表：**
+- 🎞️ **IMAX**  
+  预计规划：2026 · 准备中  
+  🔗 [敬请期待 →](https://example.com/posters/cultural)
+
+- 🎬 **片方**  
+  预计规划：2026 · 准备中  
+  🔗 [敬请期待 →](https://example.com/posters/education)
+
+- 🏙️ **Citity**  
+  预计规划：2026 · 准备中  
+  🔗 [敬请期待 →](https://example.com/posters/crossover)
+
+- 🔊 **Dolby**  
+  预计规划：2026 · 准备中  
+  🔗 [敬请期待 →](https://example.com/posters/crossover)
+
+---
+
+© 2025 **龙导Orz · Poster Atlas**  
+保持灵感流动，持续更新 ✨
